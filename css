@@ -1,0 +1,239 @@
+body {
+	Background-image: url('img/bg.png');
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #FFF200;
+}
+
+a:hover, a:active {
+	background-color: #FFF200;
+	color: #FFF;
+} 
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav {
+	background-color: #666;
+	height: 40px;
+	/* styling for your background for the nav bar */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active ,
+.mainHeader nav .active a:link, .minaHeader nav .active a:visited {
+	background-color: #FFF200;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+   /* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	/* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topcontent {
+	background-color: #FFF;
+	/* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	/* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	/* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	/* written out borders 
+	margin-left: 3%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	*/
+	
+	margin: 2% 0 2% 3%;/* html5 coding for adding margins left, right, top, and bottom*/
+	padding: 2% 3%;
+}
+
+.post-info {
+	font-style: italics;
+	color: #999;
+	
+}
+
+.middle-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	/* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	/* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	/* the same styling for your background for the nav bar is placed here to match */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	/* written out borders 
+	margin-top: 2%;
+	margin-bottom: 2%; 
+	*/
+	margin: 2% 0;/* html5 coding for adding margins left, right, top, and bottom*/
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFF;
+}
+
+@media only screen and (min width: 150px) and (max-width: 600px)
+{
+
+	.body {
+		width: 90%;
+		font-size: 90%;
+	}
+
+	.mainHeader img {
+		width: 100%;
+	}
+
+	.mainHeader nav {
+		height: 160px;
+	}
+
+	.mainHeader nav ul {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+	.post-info {
+		display: none;
+	}
+
+	.topcontent {
+		background-color: #FFF;
+		/* the same styling for your background for the nav bar is placed here to match */
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+
+	.bottomcontent {
+		margin-top: 4%;
+	}	
+	
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+		width: 94%;
+		margin: 2% 0 2% 3%;/* html5 coding for adding margins left, right, top, and bottom*/
+		padding: 2% 3%;
+	}	
+}
